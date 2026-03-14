@@ -229,4 +229,4 @@ ssh -i chave-vm-dev.pem ubuntu@<SEU_ELASTIC_IP>
 
 **Lucas Laroca Campos**  
 Desenvolvedor em formação | Castro, PR, Brasil  
-[GitHub](https://github.com/larocalucas) • [LinkedIn](https://linkedin.com/in/lucaslarocampos/)
+[GitHub](https://github.com/larocalucas) • [LinkedIn](https://linkedin.com/in/lucaslarocacampos/)
