@@ -20,7 +20,7 @@
 │  │  │:5901     │   │:6080    │   (porta 6080)  │    │
 │  │  └──────────┘   └──────────┘               │    │
 │  │                                             │    │
-│  │  Elastic IP: 18.229.232.60                  │    │
+│  │  Elastic IP: <SEU_ELASTIC_IP>                  │    │
 │  └─────────────────────────────────────────────┘    │
 │                                                      │
 │  ┌──────────────┐   ┌──────────────────────────┐   │
@@ -65,12 +65,12 @@
 
 ### Via Browser (noVNC)
 ```
-http://18.229.232.60:6080/vnc.html
+http://<SEU_ELASTIC_IP>:6080/vnc.html
 ```
 
 ### Via SSH
 ```bash
-ssh -i chave-vm-dev.pem ubuntu@18.229.232.60
+ssh -i chave-vm-dev.pem ubuntu@<SEU_ELASTIC_IP>
 ```
 
 ### Segurança
@@ -201,14 +201,14 @@ sudo apt install -y ./google-chrome-stable_current_amd64.deb
 **Iniciar a VM:**
 1. Console AWS → EC2 → `vm-dev` → **Iniciar instância**
 2. Aguardar ~1 minuto
-3. Acessar `http://18.229.232.60:6080/vnc.html`
+3. Acessar `http://<SEU_ELASTIC_IP>:6080/vnc.html`
 
 **Parar a VM:**
 1. Console AWS → EC2 → `vm-dev` → **Interromper instância**
 
 **Conectar via SSH:**
 ```bash
-ssh -i chave-vm-dev.pem ubuntu@18.229.232.60
+ssh -i chave-vm-dev.pem ubuntu@<SEU_ELASTIC_IP>
 ```
 
 ---
@@ -229,4 +229,4 @@ ssh -i chave-vm-dev.pem ubuntu@18.229.232.60
 
 **Lucas Laroca Campos**  
 Desenvolvedor em formação | Castro, PR, Brasil  
-[GitHub](https://github.com/larocalucas) • [LinkedIn](#)
+[GitHub](https://github.com/larocalucas) • [LinkedIn](https://linkedin.com/in/lucaslarocampos/)
